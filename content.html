@@ -1,0 +1,635 @@
+<!doctype html>
+<html class="h-100" lang="fa" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A well made and handcrafted Bootstrap 5 template">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+  <meta name="generator" content="Eleventy v2.0.1">
+  <meta name="HandheldFriendly" content="true">
+  <title>گالری آریا</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+
+
+
+</head>
+
+<body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-dark bg-black fixed-top " tabindex="0">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/logo/main.png" class="img-fluid logo" alt="Logo">
+      </a>
+      <ul class="navbar-nav d-flex flex-row mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="index.html" aria-label="Homepage">خانه</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="content.html" aria-label="A sample content page">گالری</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="row d-flex justify-content-center py-vh-5 pb-0">
+        <!-- <div class="col-12 col-lg-10 col-xl-8 nameContent">
+          <div class="row">
+            <div class="col-12 ">
+               <h1 class="display-1 fw-bold ">شرکت
+                <strong class="fs-4">غرفه سازی</strong><br> 
+                <strong class="CompanyName">کاسیت طرح آریا</strong>
+              </h1>
+            
+            </div>
+          </div>
+        </div> -->
+        <div class="row companyText mt-3">
+          <div class="col-12 py-vh-2 position-relative">
+            <!-- <div class="companyText-back"></div> -->
+            <!-- <h1 class="CompanyName display-huge mt-3 mb-3 lh-1">کاسیت طرح آریا</h1> -->
+            <img src="./img/group1/sabz afrin.jpg" width="1446" height="982" alt="abstract image"
+              class="img-fluid rounded-5  shadow">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </main>
+
+  <div class="button-group filter-button-group">
+    <button data-filter="*">همه</button>
+    <button data-filter=".Less40">کمتر از 40 متر</button>
+    <button data-filter=".More40">بیشتر از 40 متر</button>
+    <button data-filter=".desired">دلخواه</button>
+
+    <!-- Add more buttons for each category -->
+  </div>
+  <div class="container-gallery ">
+    <button class="close ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-circle"
+        viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+        <path
+          d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+      </svg>
+    </button>
+
+    <div class="gallery row ">
+      <div class="item Less40 col col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img class="item__img img-fluid rounded-5" src="./img/group1/behavarn.jpg" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/behavaran.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            
+              <picture><img src="./img/group1/behavaran 2.jpg" class="img-fluid" alt=""></picture>
+            </picture>
+          </swiper-slide>
+          <!-- <swiper-slide>
+            <picture><img src="" alt=""></picture>
+          </swiper-slide> -->
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col  col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/gardeshgari.jpg" class="item__img img-fluid rounded-5" alt=" گردشگری">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/gardeshgari2.jpg" alt="">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-video full-page slider slider_style1 thb_change_header">
+              <video muted loop controls>
+                <source src="./img/group1/gardeshgari3.mp4">
+              </video>
+            </div>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/behin boronz 4.jpg" class="item__img img-fluid rounded-5" alt="بهین برنز ">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/behin boronz 2.jpg" alt="">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/behin boronz 3.jpg" alt="">
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+        <swiper-slide>
+          <picture>
+            <img src="./img/group1/behin boronz 5.jpg" alt="">
+          </picture>
+        </swiper-slide>
+        </swiper-container>
+        <swiper-slide>
+          <picture>
+            <img src="./img/group1/behin boronz.jpg" alt="">
+          </picture>
+        </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/razi.jpg" class="item__img img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/razi2.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/razi 2.jpg" alt=""></picture>
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <video muted loop controls>
+              <source src="./img/group1/razi.mp4">
+            </video>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+      <div class="item Less40 col col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/amir kabir.jpg" class="item__img img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/amir kabir 2.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/amir kabir.jpg" alt=""></picture>
+            </picture>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+
+      <div class="item More40 col col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/behran.jpg" class="item__img img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/behran 2.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture><img src="./img/group1/behran.jpg" alt=""></picture>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+
+      <div class="item desired col col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/azin.jpg" class="item__img img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/azin 2.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/azin.jpg" alt=""></picture>
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item desired col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/carbon black.jpg" class="item__img img-fluid rounded-5" alt=" کربن">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/carbon black 2.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture><img src="./img/group1/carbon black.jpg" alt=""></picture>
+          </swiper-slide>
+
+        </swiper-container>
+
+      </div>
+
+      <div class="item desired col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/denix.jpg" class="item__img  img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/denix 1.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/denix.jpg" alt=""></picture>
+            </picture>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+
+      <div class="item More40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/elekam.jpg" class="item__img img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/elekam 2.jpg" alt="elekam"></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/elekam.jpg" alt="elekam"></picture>
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item More40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/golden sky.jpg" class="item__img  img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/golden sky 2.jpg" alt=""></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/golden sky.jpg" alt=""></picture>
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+
+        <img src="./img/group1/homila.jpg" class="item__img img-fluid rounded-5" alt="Photography 1">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/homila 2.jpg" alt="hamila"></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/homila.jpg" alt="hamila"></picture>
+            </picture>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/melat.jpg" class="item__img img-fluid rounded-5" alt="bank melat">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture><img src="./img/group1/melat 2.jpg" alt="bank melat"></picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <picture><img src="./img/group1/melat.jpg" alt="bank melat"></picture>
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/micro cover.jpg" class="item__img img-fluid rounded-5" alt="micro cover">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/micro cover 2.jpg" alt="micro cover">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/micro cover 3.jpg" alt="micro cover">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture><img src="./img/group1/micro cover.jpg" alt="micro cover"></picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/saba foolad.jpg" class="item__img img-fluid rounded-5" alt="saba foolad">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/saba foolad 2.jpg" alt="saba foolad">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/saba foolad 3.jpg" alt="saba foolad">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/saba foolad 4.jpg" alt="saba foolad">
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/saba brodat.jpg" class="item__img img-fluid rounded-5" alt="saba brodat">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/saba brodat 2.jpg" alt="saba brodat">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/saba brodat.jpg" alt="saba brodat">
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/shadegan.jpg" class="item__img img-fluid rounded-5" alt="saba brodat">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/shadegan 2.jpg" alt="shadegan">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/shadegan.jpg" alt="shadegan">
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/pars nikan.jpg" class="item__img img-fluid rounded-5" alt="پارس نیکان ">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/pars nikan 2.jpg" alt="پارس نیکان">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/pars nikan.jpg" alt="پارس نیکان">
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/sepah 3.jpg" class="item__img img-fluid rounded-5" alt="بانک سپه">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/sepah 2.jpg" alt=" سپه">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/sepah 4.jpg" alt=" سپه">
+            </picture>
+          </swiper-slide>
+
+        </swiper-container>
+      </div>
+
+      <div class="item Less40 col col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        <img src="./img/group1/sirjan.jpg" class="item__img img-fluid rounded-5" alt="شهرداری سیرجان">
+        <swiper-container dir="rtl" class="mySwiper" navigation="true" pagination="true" pagination-clickable="true">
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/sirjan 2.jpg" alt="">
+            </picture>
+          </swiper-slide>
+          <swiper-slide>
+            <picture>
+              <img src="./img/group1/sirjan.jpg" alt="">
+            </picture>
+          </swiper-slide>
+        </swiper-container>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <button id="backToTopBtn" title="goup">
+    <span class="material-symbols-outlined">
+      <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#111">
+        <path
+          d="M352.33-390.67 480-518.33l127.67 127.66 47.66-46.66L480-612.67 304.67-437.33l47.66 46.66ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-155.67 31.5-72.66 85.5-127Q251-817 324-848.5T480-880q83 0 155.67 31.5 72.66 31.5 127 85.83 54.33 54.34 85.83 127Q880-563 880-480q0 83-31.5 156t-85.83 127q-54.34 54-127 85.5Q563-80 480-80Zm0-66.67q138.67 0 236-97 97.33-97 97.33-236.33 0-138.67-97.33-236-97.33-97.33-236-97.33-139.33 0-236.33 97.33t-97 236q0 139.33 97 236.33t236.33 97ZM480-480Z" />
+      </svg>
+    </span>
+  </button>
+  </div>
+
+  <footer class="footer mt-3">
+    <div class="footer-container">
+      <div class="footer-row">
+        <!-- Access section -->
+        <div class="footer-col access">
+          <span class="footer-title">دسترسی</span>
+          <hr>
+          <ul class="footer-nav">
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">خانه</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#" class="footer-nav-link">گالری</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Contact section -->
+        <div class="footer-col contact">
+          <span class="footer-title">ارتباط با ما</span>
+          <hr>
+          <ul class="footer-contact">
+            <li class="footer-contact-item">
+              <a href="https://www.instagram.com/kassit.exhibition?utm_source=qr&igsh=a2lqYmRxNnA0dHo3"
+                class="footer-contact-link">
+                <i class="fab fa-instagram"></i>
+                <span>kassit.exhibition</span>
+              </a>
+            </li>
+            <li class="footer-contact-item">
+              <a href="tel:+989120175024" class="footer-contact-link">
+                <i class="fas fa-phone-alt"></i> 09120175024 مهدوی
+              </a>
+            </li>
+            <li class="footer-contact-item">
+              <a href="tel:+989912190166" class="footer-contact-link">
+                <i class="fas fa-phone-alt"></i> 09912190166
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Address section -->
+        <div class="footer-col address">
+          <span class="footer-title">نشانی</span>
+          <hr>
+          <address class="fw-lighter">تهران,شهرستان شهریار,شهر باغستان,شهرک صادقیه -باباسلمان , خیابان شهید
+            چالوکه,خیابان بهشت,پلاک 0</address>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var gallery = document.querySelector('.gallery');
+      var iso = new Isotope(gallery, {
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+      });
+
+      var filters = document.querySelector('.filter-button-group');
+      filters.addEventListener('click', function (event) {
+        if (!event.target.matches('button')) {
+          return;
+        }
+        var filterValue = event.target.getAttribute('data-filter');
+        iso.arrange({ filter: filterValue });
+      });
+
+      // Optional: Add active class to the current button
+      filters.addEventListener('click', function (event) {
+        if (!event.target.matches('button')) {
+          return;
+        }
+        var buttons = filters.querySelectorAll('button');
+        buttons.forEach(function (button) {
+          button.classList.remove('active');
+        });
+        event.target.classList.add('active');
+      });
+    });
+  </script>
+  <!--sssssssssssssssssss  -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiperItems = document.querySelectorAll('.item');
+      const backToTopBtn = document.querySelector('#backToTopBtn'); // Select the back to top button
+
+      swiperItems.forEach(item => {
+        const closebtn = document.querySelector('.close'); // Select the close button
+        const swiperContainer = item.querySelector('.mySwiper'); // Select the swiper container within the current item
+
+        item.addEventListener('click', () => {
+          if (swiperContainer) {
+            swiperContainer.style.display = "block"; // Display the swiper container
+
+
+            if (closebtn) {
+              closebtn.style.display = 'block'; // Display the close button
+            }
+            if (backToTopBtn) {
+              backToTopBtn.style.opacity = '0'; // Hide the back to top button
+            }
+          }
+        });
+
+        closebtn.addEventListener('click', () => {
+          if (swiperContainer) {
+            swiperContainer.style.display = "none"; // Hide the swiper container
+          }
+          if (closebtn) {
+            closebtn.style.display = 'none'; // Hide the close button
+          }
+          if (backToTopBtn) {
+            backToTopBtn.style.opacity = '100'; // Show the back to top button
+          }
+
+
+          // Mute all videos inside the swiper container
+          const videos = swiperContainer.querySelectorAll('video');
+          videos.forEach(video => {
+            video.muted = true;
+
+            // Check if the parent of the parent of the video element is not 'swiper-slide-active'
+            const parentElement = video.parentElement;
+            const grandParentElement = parentElement ? parentElement.parentElement : null;
+          });
+        });
+      });
+    });
+
+
+
+  </script>
+  <!--sssssssssssssssssss  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script> -->
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
+
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
+
+    })
+
+    // scroll to top of page
+
+    var backToTopBtn = document.getElementById("backToTopBtn");
+    window.onscroll = function () {
+      showButtonFunction();
+    };
+    function showButtonFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    }
+    backToTopBtn.onclick = function () {
+      scrollToTopFunction();
+    };
+
+    function scrollToTopFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    // scroll to top of page end
+  </script>
+
+</body>
+
+</html>
