@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
-/*!
- * Bootstrap  v5.3.0-alpha3 (https://getbootstrap.com/)
- * Copyright 2011-2023 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
     --bs-blue: #1717e5;
     --bs-indigo: #6610f2;
@@ -128,6 +124,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 *,
 ::after,
 ::before {
@@ -188,7 +185,6 @@ code {
     object-fit: contain;
     position: absolute;
     top: 5px;
-    /* background-color: red; */
     left: 20px;
 }
 
@@ -213,7 +209,6 @@ code {
 
 .background {
     padding: 30px;
-    /* background-color: #ffe69ca5; */
     border-radius: 45px;
     margin-bottom: 10px;
     color: #fff;
@@ -265,14 +260,9 @@ code {
 }
 
 .item {
-    /* position: relative;
-    padding: 3px; */
     box-sizing: border-box;
     overflow: hidden;
-    /* display: flex;
-     */
     aspect-ratio: 4 / 3;
-    /* max-width: 322px; */
     margin-top: 14px;
 }
 
@@ -285,55 +275,35 @@ code {
 
 }
 
-/* استایل پیش‌فرض برای دسکتاپ و اندازه‌های بزرگتر */
 picture {
     height: 90%;
     overflow: hidden;
     object-fit: cover;
-  }
-  
-  /* استایل برای دستگاه‌های تبلت و کوچکتر */
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     picture {
-      height: auto; /* ارتفاع به حالت طبیعی برمی‌گردد */
-      object-fit: none; /* تصویر به حالت طبیعی نمایش داده می‌شود */
+        height: auto;
+        object-fit: none;
     }
-  }
-  
-/* استایل پیش‌فرض برای ویدیوها */
+}
+
 video {
     width: 100%;
-    max-width: 600px; /* حداکثر عرض ویدیو */
-    height: 90%; /* تنظیم ارتفاع به صورت خودکار بر اساس عرض */
-    object-fit: contain; /* حفظ نسبت تصویر ویدیو بدون برش */
-    margin: 0 auto; /* مرکزی کردن ویدیو */
-    display: block; /* اطمینان از اینکه ویدیو به عنوان یک بلاک نمایش داده می‌شود */
-  }
-  
-  /* استایل برای دستگاه‌های کوچکتر از 768 پیکسل */
-  @media (max-width: 768px) {
+    max-width: 600px;
+    height: 90%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
     video {
-      width: 100%;
-      max-width: 100%;
-      height: 90%;
-    }
-  }
-  
-/* .item img:hover {
-    transform: scale(1.01);
-
-} */
-
-/* @media(max-width :576px) {
-
-
-    .item img {
-        width: 90%;
+        width: 100%;
+        max-width: 100%;
         height: 90%;
-        object-fit: cover;
-        margin: 0 auto;
     }
-} */
+}
 
 .detail ul {
     display: flex;
@@ -385,11 +355,6 @@ video {
 .detail ul .list-unstyled-item {
     font-size: calc(1.5rem + 1vw);
 }
-
-/* .item:hover .detail ul {
-    opacity: 97%;
-    cursor: pointer;
-} */
 
 .close {
     position: fixed;
@@ -475,20 +440,10 @@ video {
     }
 }
 
-/* @media (max-width: 576px) {
-    .button-group button {
-        font-size: 1rem;
-        font-weight: 400;
-        margin: 10px;
-    }
-} */
-
 .button-group button:hover {
     font-weight: 500;
     text-shadow: #ffe69ca5 2px 1px 10px;
 }
-
-.button-group button.active {}
 
 .swiper-button-prev {
     color: #664d03;
@@ -525,51 +480,6 @@ swiper-slide video {
     object-fit: cover;
 }
 
-/* Responsive styles */
-/* @media (max-width: 1200px) {
-    .item {
-        width: 250px;
-        height: 250px;
-    }
-}
-
-@media (max-width: 992px) {
-    .item {
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@media (max-width: 768px) {
-    .item {
-        width: 170px;
-        height: 170px;
-    }
-}
-
-@media (max-width: 576px) {
-    .item {
-        width: 150px;
-        height: 150px;
-    }
-
-    .button-group button {
-        margin: 5px;
-        width: 100px;
-        cursor: pointer;
-        border: 1px solid #ccc;
-        background-color: #f0f0f0;
-    }
-}
-
-@media (max-width: 360px) {
-    .item {
-        width: 100px;
-        height: 100px;
-    }
-} */
-
-/* clos btn */
 .h1,
 .h2,
 .h3,
@@ -831,10 +741,6 @@ button:not(:disabled) {
 
 .container,
 .container-fluid {
-    /* --bs-gutter-x: 4vw;
-    --bs-gutter-y: 0; */
-    /* padding-right: calc(var(--bs-gutter-x) * .5); */
-    /* padding-left: calc(var(--bs-gutter-x) * .5); */
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
@@ -844,7 +750,6 @@ button:not(:disabled) {
 .container::-webkit-scrollbar,
 .container-fluid::-webkit-scrollbar {
     display: none;
-    /* Hide scrollbars for WebKit (Chrome, Safari, etc.) */
 }
 
 .nav-link {
@@ -1100,14 +1005,6 @@ button:not(:disabled) {
     margin-left: 8.33333333%
 }
 
-/* .g-5,
-.gx-5 {
-    --bs-gutter-x: 3rem
-}
-
-.g-5 {
-    --bs-gutter-y: 3rem
-} */
 
 @media (min-width:768px) {
     .col-md-auto {
